@@ -1,0 +1,416 @@
+@media (min-width:767px) {
+    .banner-content h1 {
+        font-size: 52px;
+    }
+
+    .right-bread {
+        display: block;
+    }
+
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+@media (min-width:992px) {
+    .top-contacts {
+        display: flex;
+    }
+
+    .banner-content h1 {
+        font-size: 72px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .right-bread img {
+        width: 640px;
+        height: 390px;
+        position: absolute;
+        top: 0;
+        right: -205px;
+    }
+
+    .stick-menu nav {
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        margin-top: 0px;
+        width: 1100px;
+    }
+
+    .stick-menu .menu-bg-layer {
+        opacity: 1;
+        visibility: visible;
+    }
+
+}
+
+/* --------------------------------------//////////////////////-------- */
+
+
+@media (min-width:767px) and (max-width:992px) {
+    .circle1 {
+        width: 50%;
+    }
+
+    .chef1 {
+        width: 50%;
+    }
+
+    .third-main {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .left-third {
+        width: 100%;
+    }
+
+    .right-video {
+        width: 100%;
+        margin-top: 110px;
+        height: 360px;
+        order: 1;
+        margin-bottom: 40px;
+    }
+
+    .to-give-padding {
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+
+    .right-bread {
+        width: 300px;
+        height: 210px;
+        position: absolute;
+        bottom: -130px;
+        right: -100px;
+    }
+
+    .banner-content {
+        top: 350px;
+        padding: 30px;
+    }
+
+    .footmain {
+        padding-left: 40px;
+    }
+
+    .about {
+        width: 45%;
+    }
+    .follow {
+        width: 100%;
+    }
+
+    .foot-content {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .latest-main {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .post-img {
+        height: 140px;
+    }
+
+    .latest-main>p {
+        width: 500px;
+        margin: auto;
+        margin-bottom: 85px;
+    }
+
+    .fourth-main {
+        padding-left: 70px;
+        padding-right: 70px;
+
+    }
+    .main-category {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .main-home {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    /* ---------------------------------- */
+
+    .about-heading h1 {
+        margin-top: 90px;
+        padding-top: 100px;
+    }
+
+    .circle1 p {
+        width: 380px;
+        margin: auto;
+    }
+
+    .pizza-head1 {
+        width: 100%;
+    }
+
+    .menu-main {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .size-box {
+        width: 70%;
+        margin: auto;
+    }
+
+    .size {
+        gap: 40%;
+        display: flex;
+    }
+
+    .dollor {
+        gap: 38%;
+        display: flex;
+    }
+
+    .map-main {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .contact-input {
+        margin-bottom: 20px;
+    }
+
+    .contact-box1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .add-line {
+        display: flex;
+    }
+
+    .add-textarea {
+        height: 200px;
+    }
+
+    nav i {
+        padding: 20px;
+    }
+}
+
+/* -----------------------///////////////////////----------------- */
+
+
+@media (min-width:0) and (max-width:992px) {
+    nav {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        margin-top: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 40%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        transition: 100ms;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        gap: 0;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+}
+
+/* -------------------////////////////////------------------ */
+
+
+@media (min-width:0) and (max-width:767px) {
+    .circle1 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .circle1 p {
+        line-height: 23px;
+    }
+
+    .about-heading h1 {
+        margin-top: 60px;
+        padding-top: 130px;
+    }
+
+    .category-topic h1 {
+        width: 340px;
+        display: block;
+        margin: auto;
+    }
+
+    .main-category {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .left-third {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .left-third span {
+        font-size: 16px;
+    }
+
+    .left-third p {
+        line-height: 20px;
+    }
+
+    .right-video {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    .foot-content .about .news .follow {
+        font-size: 40px;
+    }
+
+    .reviews {
+        width: 100%;
+    }
+
+    .latest-main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .post1 {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footmain {
+        margin-top: 100px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .news {
+        width: 100%;
+    }
+
+    .follow {
+        width: 100%;
+    }
+
+    .foot-content {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .banner-content :nth-child(1) {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    .banner-content h1 {
+        font-size: 49px;
+    }
+
+    .banner-content p {
+        line-height: 23px;
+    }
+
+    .banner-content {
+        padding: 10px;
+    }
+
+    .chef1 {
+        width: 100%;
+    }
+
+    .pizza-head1 {
+        width: 100%;
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .pizza-head1 P {
+        font-size: 19px;
+        color: #777;
+        line-height: 29px;
+    }
+
+    .size-box {
+        margin: auto;
+        font-size: 25px;
+        width: 70%;
+    }
+
+    .menu-btns {
+        padding: 20px;
+    }
+
+    .menu-btn1 {
+        width: 160px;
+        margin-bottom: 20px;
+        height: 50px;
+    }
+
+    .size {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dollor {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .contact-area {
+        padding: 20px;
+    }
+
+    .contact-input {
+        margin-bottom: 10px;
+    }
+
+    .contact-box1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .add-line {
+        display: flex;
+    }
+
+    .add-textarea {
+        height: 200px;
+    }
+
+    .send-msg-btn {
+        padding-right: 20px;
+    }
+
+    .fourth-main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .right-bread {
+        display: none;
+    }
+}
